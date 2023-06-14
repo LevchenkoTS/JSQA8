@@ -1,0 +1,28 @@
+[
+  {
+      "name": "First scenario",
+      "data": [
+            {
+              "row": 7,
+              "seat": 8
+            }
+      ]
+  },
+  {
+      "name": "Second scenario",
+      "data": [
+          {
+              "row": 7,
+              "seat": 3
+            },
+            {
+              "row": 7,
+              "seat": 4
+            },
+            {
+              "row": 7,
+              "seat": 5
+            }
+      ]
+  }
+]

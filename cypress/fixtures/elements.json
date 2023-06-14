@@ -1,0 +1,32 @@
+{
+    "homeNavDays": ".page-nav__day",
+    "homeH1": "h1",
+    "homeText": "Идёмвкино",
+
+
+    "adminSubtitle": ".page-header__subtitle",
+    "adminText": "Администраторррская",
+    "adminLogin": "[name=\"email\"]",
+    "adminPassword": "[name=\"password\"]",
+    "adminButton": ".login__button",
+    "emptyFieldText": "Please fill out this field.",
+
+    
+    "hall": ".conf-step__list > :nth-child(2)",
+    "seanseList": ".movie-seances__list",
+    "seanceTime": ".movie-seances__time",
+    "seanseDay": "a.page-nav__day:nth-of-type(4)",
+    "textButton": "Забронировать",
+    "ticketCheck": ".ticket__check-title",
+    "ticketText": "Вы выбрали билеты:",
+    "ticketHall": ".ticket__info-wrapper > :nth-child(3)",
+    "takeQR": ".acceptin-button",
+    "textQR": "Электронный билет",
+    "infoQR": ".ticket__info-qr",
+    "template": {
+        "partOne": ":nth-child(",
+        "partTwo": ") > :nth-child(",
+        "partThree": ")"
+    },
+    "notExist": "[data-layer='Padding']"
+}
