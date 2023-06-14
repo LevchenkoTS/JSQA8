@@ -9,7 +9,7 @@
     "adminLogin": "[name=\"email\"]",
     "adminPassword": "[name=\"password\"]",
     "adminButton": ".login__button",
-    "emptyFieldText": "Please fill out this field.",
+    "emptyFieldText": "Заполните это поле.",
 
     
     "hall": ".conf-step__list > :nth-child(2)",

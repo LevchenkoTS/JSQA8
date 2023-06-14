@@ -1,4 +1,4 @@
-import element from "../fixtures/elements.json";
+import element from '../../fixtures/elements.json';
 
 describe("home page", () => {
   it("successfull home page", () => {

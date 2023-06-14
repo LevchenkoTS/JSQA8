@@ -3,8 +3,8 @@
       "name": "First scenario",
       "data": [
             {
-              "row": 7,
-              "seat": 8
+              "row": 9,
+              "seat": 1
             }
       ]
   },
@@ -12,16 +12,16 @@
       "name": "Second scenario",
       "data": [
           {
-              "row": 7,
+              "row": 9,
+              "seat": 2
+            },
+            {
+              "row": 9,
               "seat": 3
             },
             {
-              "row": 7,
+              "row": 9,
               "seat": 4
-            },
-            {
-              "row": 7,
-              "seat": 5
             }
       ]
   }

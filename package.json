@@ -4,26 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:booking": "npx cypress run --record --spec 'cypress/e2e/booking.cy.js' --group booking --ci-build-id 5",
-    "test:login": "npx cypress run --record --spec 'cypress/e2e/login.cy.js' --group login --ci-build-id 5",
+    "test:booking": "npx cypress run --record --spec 'cypress/e2e/booking.cy.js' --group booking",
+    "test:login": "npx cypress run --record --spec 'cypress/e2e/login.cy.js' --group login",
 
     "test:parallelOne": "npm run test:booking & npm run test:login",
 
 
-    "test:booking:chrome": "npx cypress run --record --browser chrome --spec 'cypress/e2e/booking.cy.js' --group booking --ci-build-id 6",
-    "test:login:chrome": "npx cypress run --record --browser chrome --spec 'cypress/e2e/login.cy.js' --group login --ci-build-id 5",
-    "test:booking:opera": "npx cypress run --record --browser opera --spec 'cypress/e2e/booking.cy.js' --group booking --ci-build-id 5",
-    "test:login:opera": "npx cypress run --record --browser opera --spec 'cypress/e2e/login.cy.js' --group login --ci-build-id 5",
-    "test:booking:electron": "npx cypress run --browser elecron --record --spec 'cypress/e2e/booking.cy.js' --group booking --ci-build-id 5",
-    "test:login:electron": "npx cypress run --browser electron --record --spec 'cypress/e2e/login.cy.js' --group login --ci-build-id 6",
+    "test:booking:chrome": "npx cypress run --record --browser chrome --spec 'cypress/e2e/booking.cy.js' --group booking",
+    "test:login:chrome": "npx cypress run --record --browser chrome --spec 'cypress/e2e/login.cy.js' --group login",
+    "test:booking:opera": "npx cypress run --record --browser opera --spec 'cypress/e2e/booking.cy.js' --group booking",
+    "test:login:opera": "npx cypress run --record --browser opera --spec 'cypress/e2e/login.cy.js' --group login",
+    "test:booking:electron": "npx cypress run --browser elecron --record --spec 'cypress/e2e/booking.cy.js' --group booking",
+    "test:login:electron": "npx cypress run --browser electron --record --spec 'cypress/e2e/login.cy.js' --group login",
     
     "test:parallelTwo": "npm run test:booking:chrome & npm run test:login:electron",
 
 
-     "test:specOne": "npx cypress run --record --spec 'cypress/e2e/spec1' --group spec1 --ci-build-id 7",
-     "test:specTwo": "npx cypress run --record --spec 'cypress/e2e/spec2' --group spec2 --ci-build-id 7",
+     "test:specOne": "npx cypress run --record --spec 'cypress/e2e/spec1' --group spec1",
+     "test:specTwo": "npx cypress run --record --spec 'cypress/e2e/spec2' --group spec2",
      
-     "test:parallelThree": "npm run test:spec1 & npm run test:spec2"
+     "test:parallelThree": "npm run test:specOne & npm run test:specTwo"
 
   },
   "keywords": [],
